@@ -491,7 +491,6 @@ const HomeScreen = ({navigation}) => {
           sound.getNumberOfChannels(),
       );
 
-      // Play the sound with an onEnd callback
       sound.play(success => {
         if (success) {
           console.log('successfully finished playing');
